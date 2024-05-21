@@ -1,11 +1,13 @@
+import Counter from '../components/Counter'
 import MyButton from '../components/MyButton'
-import MyButton2 from '../components/MyButton2'
+import MyButtonDisabled from '../components/MyButtonDisabled'
 
 export default function Home() {
     return (
         <>
             <MyButton />
-            <MyButton2 />
+            <MyButtonDisabled />
+            <Counter />
         </>
     )
 }

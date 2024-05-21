@@ -22,8 +22,8 @@ export default function MyApp() {
         </div>
     )
 }; */
-/* import { useState } from "react";
 
+import { useState } from "react";
 
 export default function MyApp() {
 
@@ -48,4 +48,4 @@ function MyButton( {count, onClick } ) {
             clicked { count } times
         </button>
     )
-} */
+}
