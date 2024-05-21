@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import MyButton from '../components/MyButton'
+import MyButton2 from '../components/MyButton2'
 
-class Home extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        );
-    }
+export default function Home() {
+    return (
+        <>
+            <MyButton />
+            <MyButton2 />
+        </>
+    )
 }
-
-export default Home;
